@@ -1,0 +1,10 @@
+[project]
+name = "formatron-repro"
+version = "0.1.0"
+description = "Reproduction case for formatron KBNF JSON schema issue"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "formatron>=0.5.0",
+    "kbnf>=0.4.2"
+]
