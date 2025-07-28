@@ -85,7 +85,7 @@ def run_schema(schema):
         print("--- FAILED ---\n")
 
 
-print("minItems 1/maxItems 1")
+print("minItems 2/maxItems 2")
 run_schema(schema_1)
 print("minItems 1/maxItems 2")
 run_schema(schema_2)
